@@ -1,0 +1,64 @@
+.review {
+    width: 100%;
+    height: 100vh;
+    padding: 0 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    background-image: linear-gradient(to bottom right, #B573FD ,#FD8CA6);
+}
+
+.review > h3 {
+    font-size: 2vw;
+    margin-bottom: 1vw;
+    font-weight: 700;
+    color: white;
+}
+
+.review > p {
+    color: white;
+    text-align: center;
+    width: 50vw;
+    font-size: 1vw;
+    margin-bottom: 2vw;
+}
+
+.list_review {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+}
+
+.card_review {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 25vw;
+    height: 30vh;
+    padding: 2vw;
+}
+
+.card_review-top {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    background-color: red;
+    width: 100%;
+}
+
+.card_review-top > img {
+    width: 4.5vw;
+    margin-right: 1vw;
+}
+
+.card_review-top-infor {
+    
+}

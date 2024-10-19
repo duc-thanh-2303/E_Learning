@@ -1,0 +1,215 @@
+.course {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 10vh;
+    background-image: linear-gradient(to bottom right, #B573FD, #FD8CA6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.course > h2 {
+    font-size: 3vw;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 1.5vw;
+}
+
+.course > p {
+    font-size: 1vw;
+    color: white;
+    width: 35vw;
+    text-align: center;
+    margin-bottom: 2.5vw;
+}
+
+.list_course {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+}
+
+.list_course-card {
+    background-color: white;
+    width: 25vw;
+    height: 65vh;
+    padding: 1vw;
+    border: none;
+    border-radius: 1.5vw;
+}
+
+.list_course-card > img {
+    border-radius: 0.5vw;
+    width: 100%;
+    margin-bottom: 1.5vw;
+    height: 30vh;
+}
+
+.list_course-card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 1.5vw;
+}
+
+.list_course-card-type {
+    width: 8vw;
+    height: 3vh;
+    background-color: rgba(181, 115, 253, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 0.2vw;
+    border-radius: 0.3vw;
+}
+
+.list_course-card-type > span {
+    width: 1.2vh;
+    height: 1.2vh;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(181, 115, 253);
+}
+
+.list_course-card-type > p {
+    font-size: 0.8vw;
+    font-weight: 500;
+}
+
+.list_course-card-rate {
+    width: 3vw;
+    height: 3vh;
+    background-color: rgba(181, 115, 253, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 0.2vw;
+    border-radius: 0.3vw;
+}
+
+.list_course-card-rate > span {
+    width: 1.2vh;
+    height: 1.2vh;
+    border: none;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+.list_course-card-rate > p {
+    font-size: 0.8vw;
+    font-weight: 500;
+    color: white;
+}
+
+.list_course-card-title {
+    width: 20vw;
+    font-weight: 700;
+    font-size: 1.7vw;
+    margin-bottom: 1.5vw;
+}
+
+.list_course-card-infor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 0.5vw;
+}
+
+.list_course-card-class {
+    width: 7vw;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.list_course-card-class > span {
+    width: 1.2vh;
+    height: 1.2vh;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(181, 115, 253);
+}
+
+.list_course-card-class > p {
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.list_course-card-student {
+    width: 7vw;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.list_course-card-student > span {
+    width: 1.2vh;
+    height: 1.2vh;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(181, 115, 253);
+}
+
+.list_course-card-student > p {
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.list_course-card-cross {
+    width: 100%;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-color: gray;
+    height: 0.3vh;
+    margin-bottom: 1vw;
+}
+
+.list_course-card-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+}
+
+.list_course-card-price > p {
+    font-size: 1.3vw;
+    font-weight: bold;
+}
+
+.list_course-card-author {
+    width: 9vw;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    /* background-color: red; */
+}
+
+.list_course-card-author > img {
+    width: 5vh;
+    height: 5vh;
+}
+
+.list_course-card-author > p {
+    color: #B573FD;
+    font-size: 1vw;
+    font-weight: 500;
+}

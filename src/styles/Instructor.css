@@ -1,0 +1,75 @@
+.instructor {
+    width: 100%;
+    height: 100vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.left_instructor {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.right_instructor > img {
+    width: 20vw;
+}
+
+.instructor-title {
+    font-size: 2vw;
+    font-weight: 700;
+    margin-bottom: 1vw;
+    line-height: 1.2;
+}
+
+.instructor-title > span {
+    color: #B573FD;
+}
+
+.left_instructor > p {
+    font-size: 1vw;
+    margin-bottom: 1.5vw;
+    line-height: 1.2;
+}
+
+.instructor-list-title {
+    font-size: 2vw;
+    font-weight: 700;
+    margin-bottom: 1vw;
+}
+
+.instructor-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1vw;
+    padding: 10px;
+}
+
+.instructor_menu-list > p {
+    font-size: 1.1vw;
+    font-weight: 300;
+}
+
+.left_instructor > button {
+    width: 17vw;
+    height: 5vh;
+    background-color: #B573FD;
+    font-size: 1.2vw;
+    font-weight: 700;
+    margin-top: 2vw;
+    color: white;
+    border-radius: 0.5vw;
+    transition: all .5s;
+}
+
+.left_instructor > button:hover {
+    background-color: #FD8CA6;
+    box-shadow: 0 0 0.7vw #B573FD;
+}
